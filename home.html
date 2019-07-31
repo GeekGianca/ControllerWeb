@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Controlador</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="home.html" id="hometitle" class="navbar-brand"></a>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="home.html">Electrodomesticos
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="estadoenergia.html">Estado de energia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="reportes.html">Reportes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="closesession">Cerrar Sesión</a>
+        </li>
+        <form class="form-inline my-2 my-lg-0">
+            <input type="search" id="search" class="form-control mr-sm-2" placeholder="Electrodomestico">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">
+                Buscar
+            </button>
+        </form>
+    </ul>
+</nav>
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-body">
+                    <form id="lote-form">
+                        <input type="hidden" id="loteid">
+                        <div class="form-group">
+                            <input type="text" id="idlote" placeholder="Nombre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="tipolote" placeholder="Ubicacion" class="form-control">
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                       value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Encendido</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                       value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Apagado</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block text-center">
+                            Registrar Electrodomestico
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="card my-4" id="resultado">
+                <div class="card-body">
+                    <ul id="container"></ul>
+                </div>
+            </div>
+            <table class="table table-striped table-sm">
+                <thead>
+                <tr>
+                    <td class="text-center">ID</td>
+                    <td class="text-center">NOMBRE</td>
+                    <td class="text-center">UBICACION</td>
+                    <td class="text-center">ESTADO</td>
+                    <td class="text-center">ACCION
+                    </td>
+                </tr>
+                </thead>
+                <tbody id="datoslote"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+<script src="js/config.js"></script>
+<script src="js/user.js"></script>
+<script src="js/App.js"></script>
+</body>
+</html>

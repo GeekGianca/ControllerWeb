@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Controlador</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="" class="navbar-brand">Controlador WEB</a>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="home.html">Electrodomesticos</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="estadoenergia.html">Estado de energia
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Reportes</a>
+        </li>
+        <form class="form-inline my-2 my-lg-0">
+            <input type="search" id="search" class="form-control mr-sm-2" placeholder="Electrodomestico">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">
+                Buscar
+            </button>
+        </form>
+    </ul>
+</nav>
+<div class="container p-4">
+    <div class="row">
+        <div class="card my-4" id="resultado">
+            <div class="card-body">
+                <ul id="container"></ul>
+            </div>
+        </div>
+        <table class="table table-striped table-sm">
+            <thead>
+            <tr>
+                <td class="text-center">ID</td>
+                <td class="text-center">NOMBRE</td>
+                <td class="text-center">HORA ENCENDIDO</td>
+                <td class="text-center">FECHA ENCENDIDO</td>
+                <td class="text-center">HORA APAGADO</td>
+            </tr>
+            </thead>
+            <tbody id="datosproductos"></tbody>
+        </table>
+    </div>
+</div>
+<script src="js/App.js"></script>
+</body>
+</html>

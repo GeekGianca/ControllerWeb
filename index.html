@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de Sesión</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Iniciar Sesión</h5>
+                    <form class="form-signin">
+                        <div class="form-label-group">
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required autofocus>
+                            <label for="inputEmail">Correo</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                            <label for="inputPassword">Contraseña</label>
+                        </div>
+                        <button id="loginbtn" class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Acceder</button>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <a class="text-center" href="retrievepassword.html">Olvidé mi contraseña</a>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a class="text-center" href="registrar.html">Registrarme</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="alerterror" class="alert alert-danger" role="alert" style="display: none;">
+                Se produjo un error al intentar iniciar sesión.
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+<script src="js/config.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
