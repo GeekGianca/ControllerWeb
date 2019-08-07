@@ -8,7 +8,10 @@
         $query = "INSERT INTO `electrodomestico`(`nombre`, `ubicacion`, `estado`, `usuario_idusuario`) VALUES ('$nombre','$ubicacion','$estado','$idusuario');";
         $result = mysqli_query($connection, $query);
         if (!$result){
-            die('Query Fallo!');
+            echo 'Query Fallo!';
+        }else {
+            echo json_encode("Se registro el electrodomestico correctamente!");
         }
-        echo "Se registro el electrodomestico correctamente!";
+    }else{
+        echo "No hay datos disponibles";
     }

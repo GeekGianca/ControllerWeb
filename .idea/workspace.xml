@@ -2,55 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="821e1591-3369-44d3-bffd-776a226171d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MODELOS/modelo.mwb.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/forgot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/insertarelectrodomestico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registrar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retrievepassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/empacadora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/controllerweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/estado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/registros.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/actualizarelectrodomestico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/insertarregistro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/listarestadoenergia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/listarregistros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/seleccionarelectrodomestico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registros.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empacadora.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/empacadora.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/empacadoramodelo.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/empacadoramodelo.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estadolotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/estadoenergia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estadoenergia.html" beforeDir="false" afterPath="$PROJECT_DIR$/estadoenergia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/actualizalote.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/actualizaproducto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/eliminarlote.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/eliminarelectrodomestico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/insertarlote.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/insertarproducto.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/insertarusuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/listalotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/listarelectrodomesticos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/listaproductos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lote-buscar.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/electrodomesticobuscar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uniquelote.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uniqueproducto.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/eliminarelectrodomestico.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/eliminarelectrodomestico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/insertarelectrodomestico.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/insertarelectrodomestico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/insertarusuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/insertarusuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,15 +39,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>obtenerproductos</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,6 +66,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -139,7 +107,11 @@
       <workItem from="1564437696646" duration="1655000" />
       <workItem from="1564450988939" duration="1794000" />
       <workItem from="1564536357055" duration="2241000" />
-      <workItem from="1564581473248" duration="11314000" />
+      <workItem from="1564581473248" duration="12512000" />
+      <workItem from="1564673693796" duration="2136000" />
+      <workItem from="1564766363664" duration="18494000" />
+      <workItem from="1565020299252" duration="2044000" />
+      <workItem from="1565136498653" duration="9366000" />
     </task>
     <servers />
   </component>
