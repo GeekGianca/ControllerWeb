@@ -1,6 +1,14 @@
 $(document).ready(function () {
     cargarRegistros();
 
+    $(document).on('click', '#closesession', function () {
+        firebase.auth().signOut().then(function () {
+            window.location.href = 'index.html';
+        }).catch(function (error) {
+            alert(error);
+        });
+    });
+
     function cargarRegistros() {
         $.ajax({
             url: 'php/listarregistros.php',

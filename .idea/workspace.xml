@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="821e1591-3369-44d3-bffd-776a226171d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/estado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/registros.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/actualizarelectrodomestico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/insertarregistro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/listarestadoenergia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/listarregistros.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/seleccionarelectrodomestico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estadoenergia.html" beforeDir="false" afterPath="$PROJECT_DIR$/estadoenergia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/eliminarelectrodomestico.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/eliminarelectrodomestico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/insertarelectrodomestico.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/insertarelectrodomestico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/insertarusuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/insertarusuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/registros.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/registros.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +91,7 @@
       <workItem from="1564673693796" duration="2136000" />
       <workItem from="1564766363664" duration="18494000" />
       <workItem from="1565020299252" duration="2044000" />
-      <workItem from="1565136498653" duration="9366000" />
+      <workItem from="1565136498653" duration="9424000" />
     </task>
     <servers />
   </component>
